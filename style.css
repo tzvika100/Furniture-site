@@ -47,8 +47,9 @@ img {
 
 /* Home Sections */
 .home-section {
-
+    margin-bottom: 120px;
 }
+
 
 /* Home Section 2 */
 .home-section_2  h2 {
