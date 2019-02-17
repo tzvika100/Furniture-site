@@ -3,7 +3,7 @@
 @font-face { font-family: FuturaLT; src: url('fonts/FuturaLT.ttf'); }
 
 html{
-    font-size: 100%;    
+    font-size: 100%;
 }
 
 body{
@@ -47,36 +47,23 @@ img {
 
 /* Home Sections */
 .home-section {
-    
+
 }
 
 /* Home Section 2 */
-
-
-
 .home-section_2  h2 {
     white-space: nowrap;
     font-size: 52px;
     left: 50%;
+    top: 48px;
     transform: translate(-50%, 0);
-    margin-top: 48px;
     z-index: 1;
 }
-   
-
-   
-    /*
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 52px;
-    */
 
 .home-section_2 .center-img {
-       
+
         margin:auto;
         display: block;
 
     }
-
 
