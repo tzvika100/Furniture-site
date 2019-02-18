@@ -10,9 +10,27 @@ body{
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
+/* Titels */
 h1, h2, h3, h4, h5, h6{
     font-family: FuturaLt, Arial, Helvetica, sans-serif;
 }
+
+.right-title {
+    white-space: nowrap;
+    top: 113px;
+    left: 75%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.left-title {
+    white-space: nowrap;
+    top: 50px;
+    left: 43%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
 
 /* Images */
 img {
@@ -55,16 +73,19 @@ img {
 .home-section_2  h2 {
     white-space: nowrap;
     font-size: 52px;
-    left: 50%;
     top: 48px;
+    left: 50%;
     transform: translate(-50%, 0);
     z-index: 1;
 }
 
-.home-section_2 .center-img {
 
-        margin:auto;
-        display: block;
 
-    }
+
+
+
+
+
+
+
 
