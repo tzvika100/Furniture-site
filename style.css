@@ -82,6 +82,19 @@ img {
     z-index: 1;
 }
 
+box-size{
+    width:540;
+    height:20;
+}
+
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    }
+
+
+
 
 
 
