@@ -1,6 +1,7 @@
 /* fnonts */
 @font-face { font-family: Lato; src: url('fonts/Lato-Regular.ttf'); }
 @font-face { font-family: FuturaLT; src: url('fonts/FuturaLT.ttf'); }
+@font-face { font-family: FuturaLT; src: url('fonts/FuturaLT-Bold.ttf');}
 
 html{
     font-size: 100%;
@@ -82,12 +83,11 @@ img {
     z-index: 1;
 }
 
-box-size{
-    width:540;
-    height:20;
+/* Riht To Left Text  */
+
+.rtl{
+    text-align: right;
 }
-
-
 
 
 
