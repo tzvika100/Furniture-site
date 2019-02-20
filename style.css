@@ -124,20 +124,47 @@ img {
     left:584px;
 }
 
-/* footer Navs */
+/* Footer Side Social Icons  */
+.side-footer {
+    width: 4%;
+    height: 40vh;
+}
+
+.side-footer .social-icon{
+    margin-top:30px;
+}
+
+.side-footer a{
+    padding:2px 2px;
+}
+
+.side-footer a img, .side-footer a{
+    display:block;
+    margin-bottom:1px;
+}
+
+/* Footer Navs */
 .background-footer{
 background-color: #F4F4F4;
 }
 
-.site-footer a{
-    color: currentColor;
-    padding:2px 5x;
-    font-size:16px;
+.site-footer li:not(:last-child){
+    margin-right: 20px;
 }
+
 .site-footer li:last-child {
-    margin-right:80px;
+    margin-right:100px;
 
 }
+
+.site-footer a{
+    color: currentColor;
+    padding:6px 5px;
+    font-size:16px;
+}
+
+
+
 
 
 
