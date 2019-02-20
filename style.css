@@ -124,7 +124,7 @@ img {
     left:584px;
 }
 
-/* Footer Side Social Icons  */
+/* Footer  Social Icons  */
 .side-footer {
     width: 4%;
     height: 40vh;
@@ -138,9 +138,11 @@ img {
     padding:2px 2px;
 }
 
-.side-footer a img, .side-footer a{
+.social-icon a img, .side-footer a{
     display:block;
     margin-bottom:1px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 /* Footer Navs */
