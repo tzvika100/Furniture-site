@@ -117,13 +117,12 @@ img {
 }
 
 .footer-section h4{
-    margin-top:52px;
-    margin-left:97px;
+    margin-top :2vh;
 }
 
 .footer-section .entry-summary-footer{
-    top :552px;
-    left:584px;
+    margin-top :-3vh;
+    /* left:584px; */
 }
 
 /* Footer Side Social Icons  */
