@@ -34,6 +34,7 @@ img {
 /* links */
 .more-link {
     color: currentColor;
+    text-transform: uppercase;
 }
 
 .more-link:after {
@@ -42,7 +43,7 @@ img {
     width: 30px;
     height: 1px;
     background-color: currentColor;
-    vertical-align: middle;
+    vertical-align:middle;
     margin-left: 5px;
 }
 
@@ -123,6 +124,20 @@ img {
     left:584px;
 }
 
+/* footer Navs */
+.site-footer .container-fluid{
+background-color: #F4F4F4;
+}
+
+.site-footer a{
+    color: currentColor;
+    padding:15px;
+    font-size:16px;
+}
+.site-footer li:last-child {
+    margin-right:80px;
+
+}
 
 
 
