@@ -108,6 +108,9 @@ img {
 }
 
 /* Footer Section */
+.footer-section{
+    margin-bottom:2000px;
+}
 
 .first-footer-section{
     margin-bottom: 120px;
@@ -140,8 +143,8 @@ img {
 .social-icon {
     bottom:0;
     left:0;
-    width: 3%;
-    height: 20rem;
+    width: 5rem;
+    min-height: 20rem;
     z-index: 1;
 }
 
