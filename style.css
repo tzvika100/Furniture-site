@@ -16,9 +16,6 @@ h1, h2, h3, h4, h5, h6{
     font-family: FuturaLt, Arial, Helvetica, sans-serif;
 }
 
-
-
-
 /* Images */
 
 /*
@@ -41,7 +38,7 @@ img {
 
 .more-link:after {
     content: "";
-    /* display: inline-block; */
+    display: inline-block;
     width: 30px;
     height: 1px;
     background-color: currentColor;
@@ -53,7 +50,7 @@ img {
 
 .footer-tag-Dec:before {
     content: "";
-    /* display: inline-block; */
+    /* display: inline-block;  */
     width: 2px;
     height: 40px;
     background-color: currentColor;
@@ -107,13 +104,10 @@ img {
     text-align: right;
 }
 
-/* Footer Section */
-.footer-section{
-    margin-bottom:2000px;
-}
+/* Footer Section 1 */
 
 .first-footer-section{
-    margin-bottom: 120px;
+    margin-bottom: 350px;
 }
 
 .footer-section h2{
@@ -131,7 +125,7 @@ img {
 }
 
 .footer-section .entry-summary-footer{
-    margin-left :20px;
+    margin-top:-1.5rem;
 }
 
 .footer-tag {
@@ -183,9 +177,26 @@ background-color: #F4F4F4;
     font-size:16px;
 }
 
+/* Footer Content */
 
+.Subscribe-line{
+    border-top: 0;
+    border-left: 0;
+    border-right:0;
+    border-bottom: 1px solid #707070;
+    min-width: 250px;
 
+}
 
+.footer-title{
+    font-size: 18px;
+    /* margin-bottom:1rem; */
+}
+
+.footer-content .Subscribe-line{
+    text-transform: uppercase;
+    font-size: 12;
+}
 
 
 
