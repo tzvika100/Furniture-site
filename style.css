@@ -67,19 +67,18 @@ img {
     text-transform: uppercase;
 }
 .right-title {
-    white-space: nowrap;
+    /* white-space: nowrap; */
     top: 113px;
-    left: 75%;
-    transform: translate(-50%, 0);
+    left: 50%;
+    /* transform: translate(-50%, 0); */
     z-index: 1;
 }
 
 .left-title {
-    white-space: nowrap;
     top: 50px;
     left: 43%;
-    transform: translate(-50%, 0);
     z-index: 1;
+    text-align: center;
 }
 
 /* Home Sections */
@@ -90,12 +89,12 @@ img {
 
 /* Home Section 2 */
 .home-section_2  h2 {
-    white-space: nowrap;
     font-size: 52px;
+    left: 0;
     top: 48px;
-    left: 50%;
-    transform: translate(-50%, 0);
     z-index: 1;
+    width: 100%;
+    text-align: center;
 }
 
 /* Riht To Left Text  */
