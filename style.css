@@ -177,26 +177,39 @@ background-color: #F4F4F4;
     font-size:16px;
 }
 
-/* Footer Content */
+/* Footer widget */
 
-.Subscribe-line{
+.subscribe-field-title{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.input-holder{
+    position: relative;
+}
+
+.footer-widget .subs-widget .subscribe-field{
     border-top: 0;
     border-left: 0;
     border-right:0;
     border-bottom: 1px solid #707070;
     min-width: 250px;
-
-}
-
-.footer-title{
-    font-size: 18px;
-    /* margin-bottom:1rem; */
-}
-
-.footer-content .Subscribe-line{
     text-transform: uppercase;
-    font-size: 12;
+    font-size: 12px;
+
 }
+
+
+.footer-widget .subs-widget .subscribe-submit{
+    position: absolute;;
+    bottom:0;
+    right:0;
+    border: none;
+    background: none;
+
+}
+
+
 
 
 
