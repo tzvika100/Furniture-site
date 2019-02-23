@@ -25,6 +25,17 @@ img {
 }
 */
 
+/* Header */
+.hero-img{
+    width: 100vw;
+    height: 100vh;
+margin-bottom:200px;
+background: url(pic/pic1.jpg);
+background-size: cover;
+}
+
+
+
 
 .entry-image {
     margin-bottom: 0;
