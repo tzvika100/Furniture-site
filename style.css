@@ -157,26 +157,6 @@ img {
     margin-right: auto;
 }
 
-/* Footer Navs */
-
-.background-footer{
-background-color: #F4F4F4;
-}
-
-.site-footer li:not(:last-child){
-    margin-right: 4rem;
-}
-
-.site-footer li:last-child {
-    margin-right:100px;
-
-}
-
-.site-footer a{
-    color: currentColor;
-    padding:20px 5px;
-    font-size:16px;
-}
 
 /* Footer widget */
 
@@ -216,6 +196,32 @@ background-color: #F4F4F4;
     cursor: pointer;
     padding: 5px 1px;
 
+}
+
+/* Footer Navs */
+
+.site-footer nav{
+    margin-right: 2rem; 
+}
+
+
+.background-footer{
+    background-color: #F4F4F4;
+    }
+
+/* .site-footer li:not(:last-child){
+    margin-right: 4rem;
+}
+
+.site-footer li:last-child {
+    margin-right:2rem;
+
+} */
+
+.site-footer a{
+    color: currentColor;
+    padding:10px 20px;
+    font-size:16px;
 }
 
 
