@@ -137,7 +137,7 @@ img {
 .social-icon {
     bottom:0;
     left:0;
-    width: 5rem;
+    width: 4rem;
     min-height: 20rem;
     z-index: 1;
 }
@@ -201,7 +201,7 @@ img {
 /* Footer Navs */
 
 .site-footer nav{
-    margin-right: 2rem; 
+    margin-right: 4rem;
 }
 
 
@@ -218,9 +218,13 @@ img {
 
 } */
 
+.site-footer li{
+    padding:15px 15px;
+}
+
 .site-footer a{
     color: currentColor;
-    padding:10px 20px;
+    padding:5px 5px;
     font-size:16px;
 }
 
