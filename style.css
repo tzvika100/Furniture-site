@@ -117,19 +117,30 @@ img {
     font-size: 40px;
     text-transform: uppercase;
 }
+
 .right-title {
-    /* white-space: nowrap; */
-    top: 113px;
-    left: 50%;
-    /* transform: translate(-50%, 0); */
-    z-index: 1;
+
 }
 
 .left-title {
-    top: 50px;
-    left: 43%;
-    z-index: 1;
-    text-align: center;
+
+}
+
+@media (min-width: 992px) {
+    .right-title,
+    .left-title {
+        white-space: nowrap;
+    }
+
+    .right-title {
+        transform: translate(-50%, 0);
+        z-index: 1;
+    }
+
+    .left-title {
+        transform: translate(50%, 0);
+        text-align: center;
+    }
 }
 
 /* Home Sections */
