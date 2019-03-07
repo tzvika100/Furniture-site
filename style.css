@@ -21,22 +21,20 @@ html {
     }
 }
 
-body{
+body {
     font-family: Lato, Arial, Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     font-family: FuturaLT,Arial, Helvetica, sans-serif;
 
 }
 
- h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
     font-family: FuturaLT-Bold,Arial, Helvetica, sans-serif;
 }
 
 /* Images */
-
-
 img {
     max-width: 100%;
     height: auto;
@@ -63,7 +61,6 @@ img {
 }
 
 /* Decoration */
-
 .footer-tag-Dec:before {
     content: "";
     /* display: inline-block;  */
@@ -83,7 +80,6 @@ img {
     text-transform: uppercase;
 }
 
-
 /* Header */
 .site-header{
     position: absolute;
@@ -92,7 +88,8 @@ img {
     left: 0;
     width: 100%;
 }
-.hero-img{
+
+.hero-img {
     height: 100vh;
     margin-bottom: 120px;
     background-image: url(pic/pic1.jpg);
@@ -117,13 +114,11 @@ img {
     padding: 0 3vw;
 }
 
-
 .site-header .nav a {
     color: currentColor;
     font-size: 16px;
     text-transform: uppercase;
 }
-
 
 .site-header .header-title .entry-title{
     font-weight: normal;
@@ -131,38 +126,22 @@ img {
     text-align: center;
 }
 
-
-
-.right-title {
-
-}
-
-.left-title {
-
-}
-
-@media (min-width: 992px) {
-    .right-title,
-    .left-title {
-        white-space: nowrap;
-    }
-
-    .right-title {
-        transform: translate(-50%, 0);
-        z-index: 1;
-    }
-
-    .left-title {
-        transform: translate(50%, 0);
-        text-align: center;
-    }
-}
-
 /* Home Sections */
 .home-section {
-    margin-bottom: 120px;
+    margin-bottom: 1.5rem
 }
 
+@media (min-width: 768px) {
+    .home-section {
+        margin-bottom: 3.75rem
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-section {
+        margin-bottom: 7.5rem
+    }
+}
 
 /* Home Section 2 */
 .home-section_2  h2 {
@@ -174,9 +153,29 @@ img {
     text-align: center;
 }
 
-/* Riht To Left Text  */
+@media (min-width: 1024px) {
 
-.rtl{
+    .home-section .entry-title {
+        width: 100vw;
+        max-width: 570px;
+        margin-bottom: 3rem;
+    }
+
+    /* Left aligned image */
+    .left-aligned-image .entry-title {
+        transform: translate(-5rem, 0);
+    }
+
+    /* Right aligned image */
+    .right-aligned-image .entry-title {
+        transform: translate(5rem, 0);
+        text-align: right;
+    }
+
+}
+
+/* Right aligned image */
+.right-aligned-image .entry-title {
     text-align: right;
 }
 
@@ -227,16 +226,14 @@ img {
     padding:10px 0px;
 }
 
-.social-icons a svg, .social-icons a{
+.social-icons a svg, .social-icons a {
     display: block;
     margin-bottom: 1px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 /* Footer widget */
-
 .subscribe-field-title{
     font-size: 18px;
     margin-bottom: 1rem;
