@@ -210,7 +210,14 @@ img {
 
 /* Footer Side Social Icons  */
 
-.social-icons-container {
+.social-icons .icon {
+    display: inline-block;
+    margin-right: 3rem;
+    padding: 0rem 0rem;
+    padding-top: 2rem;
+}
+
+/* .social-icons-container {
     bottom:0;
     left:0;
     width: 4rem;
@@ -230,7 +237,7 @@ img {
     display: block;
     margin-bottom: 1px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 
 /* Footer widget */
@@ -282,12 +289,50 @@ img {
     background-color: #F4F4F4;
 }
 
-.site-footer .nav li{
-    padding:15px 15px;
+.site-footer .navbar li{
+    padding:0rem 1rem;
 }
 
-.site-footer .nav a {
+.site-footer .navbar a {
     color: currentColor;
-    padding: 5px 5px;
+    padding: 1rem 2rem;
     font-size: 1rem;
+}
+
+@media (min-width: 1200px){
+    .container-fluid{
+        position: relative;
+    }
+
+    .social-icons-container {
+        position: absolute;
+        bottom:0;
+        left:0;
+        width: 3rem;
+        min-height: 20rem;
+        z-index: 1;
+    }
+
+    .social-icons {
+        margin-top: 2rem;
+    }
+
+    .social-icons a{
+        padding:0rem 0rem;
+    }
+
+    .social-icons-container svg {
+        display: block;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social-icons .icon {
+        display: block;
+        margin-right: 0rem;
+        padding: 0rem 0rem;
+    }
+    .icon-loc{
+        padding-left: 1.5rem;
+    }
 }
