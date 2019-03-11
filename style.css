@@ -256,9 +256,9 @@ img {
     border-right:0;
     border-bottom: 1px solid #707070;
     outline: none;
-    min-width: 250px;
-    font-size: 10px;
-    padding: 5px 1px;
+    max-width: 12rem;
+    font-size: 0.7rem;
+    padding:0.5rem 0.2rem;
 }
 
 
@@ -275,7 +275,8 @@ img {
     border: none;
     background: none;
     cursor: pointer;
-    padding: 5px 1px;
+    /* padding: 5px 1px; */
+    padding:0.5rem 0.2rem;
 }
 
 /* Footer Navs */
@@ -317,9 +318,9 @@ img {
         margin-top: 2rem;
     }
 
-    .social-icons a{
+    /* .social-icons a{
         padding:0rem 0rem;
-    }
+    } */
 
     .social-icons-container svg {
         display: block;
@@ -334,5 +335,9 @@ img {
     }
     .icon-loc{
         padding-left: 1.5rem;
+    }
+
+    .footer-widget .subs-widget .subscribe-field{
+        min-width: 15rem;
     }
 }
