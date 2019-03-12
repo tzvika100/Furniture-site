@@ -3,44 +3,62 @@
 <head>
     <title>Furniture Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header class="site-header">
 
-        <div class="logo">Logo</div>
+        <nav class="navbar navbar-expand-lg header-menu">
 
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Shop</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Journal</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Collection</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#" >Stores</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#" >Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#" >About</a>
-            </li>
-        </ul>
+            <a class="navbar-brand" href="#">Logo</a>
 
-        <div class="header-title">
-            <h1 class="entry-title">Summer Collection</h1>
-        </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Journal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" >Stores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" >Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" >About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
     </header>
 
-    <div class="hero-img">
+    <div class="home-section hero-img d-flex flex-wrap justify-content-center align-items-center">
+
+        <div class="hero-img-title">
+            <h1 class="entry-title">Summer Collection</h1>
+        </div>
+
     </div>
 
 
@@ -51,7 +69,7 @@
                 <div class="row">
 
                     <div class="col-sm-6">
-                        <figure class="entry-image">
+                        <figure class="entry-image mb-4 mb-md-0">
                             <img  src="pic/pic2.jpg"/>
                         </figure>
                     </div>
@@ -81,19 +99,19 @@
     <section class="home-section home-section_2">
         <article class="post">
 
-            <div class="container position-relative">
+            <div class="container position-relative d-flex flex-wrap">
 
-                <h2 class="entry-title position-absolute">Modern Interior Design</h2>
+                <h2 class="entry-title order-1 mt-4 mt-dm-0">Modern Interior Design</h2>
 
                 <div class="row flex-row-reverse">
 
-                    <div class="col-sm-6">
+                    <div class="col-6">
                         <figure class="entry-image">
                             <img  src="pic/pic3.jpg" class="img-fluid"/>
                         </figure>
                     </div>
 
-                    <div class="col-sm-6 align-self-center">
+                    <div class="col-6 align-self-center">
                         <div class="row justify-content-center">
                             <div class="col-sm-8">
                                 <figure class="entry-image">
@@ -127,7 +145,7 @@
 
                         <div class="entry-summary">
                             <div class="row justify-content-end">
-                                <div class="col-lg-10">
+                                <div class="col-xl-10">
                                     <p>Lorem ipsum dolor sit amet,<br />
                                         consectetur adipiscing elit.<br />
                                         Nunc quis tempor risus.
@@ -151,7 +169,7 @@
                 <div class="row flex-row-reverse">
 
                     <div class="col-sm-6">
-                        <figure class="entry-image">
+                        <figure class="entry-image mb-4 mb-md-0">
                             <img src="pic/pic6.jpg" class="img-fluid"/>
                         </figure>
                     </div>
@@ -162,7 +180,7 @@
 
                         <div class="entry-summary text-right">
                             <div class="row">
-                                <div class="col-lg-10">
+                                <div class="col-xl-10">
                                     <p>Lorem ipsum dolor sit amet,<br />
                                         consectetur adipiscing elit.<br />
                                         Nunc quis tempor risus.
@@ -197,7 +215,7 @@
 
                         <div class="entry-summary">
                             <div class="row justify-content-end">
-                                <div class="col-lg-10">
+                                <div class="col-xl-10">
                                     <p>Lorem ipsum dolor sit amet,<br />
                                         consectetur adipiscing elit.<br />
                                         Nunc quis tempor risus.
@@ -221,7 +239,7 @@
                 <div class="row flex-row-reverse">
 
                     <div class="col-sm-6">
-                        <figure class="entry-image">
+                        <figure class="entry-image mb-4 mb-md-0">
                             <img src="pic/pic8.jpg" class="img-fluid"/>
                         </figure>
                     </div>
@@ -232,7 +250,7 @@
 
                         <div class="entry-summary text-right">
                             <div class="row">
-                                <div class="col-lg-10">
+                                <div class="col-xl-10">
                                     <p>Lorem ipsum dolor sit amet,<br />
                                         consectetur adipiscing elit.<br />
                                         Nunc quis tempor risus.
@@ -249,12 +267,12 @@
 
     </section>
 
-    <div class="footer-section first-footer-section">
+    <div class="home-section home-section_7">
         <article class="post">
 
             <div class="container position-relative">
 
-                <h2 class="entry-title">Exlusive Design</h2>
+                <h2 class="entry-title mb-4 mb-md-5">Exlusive Design</h2>
 
                 <div class="row">
 
@@ -275,7 +293,7 @@
                             </div>
 
                             <div class="col-sm-6">
-                                <div class="entry-summary-footer">
+                                <div class="entry-summary">
                                     <p>Lorem Ipsum is simply dummy text of the printing<br>
                                         and typesetting industry. Lorem Ipsum has been the<br>
                                         industry's standard dummy text ever since the<br>
@@ -295,28 +313,34 @@
         </article>
     </div>
 
-    <div class="footer-widget">
+    <footer class="site-footer">
 
-        <div class="container">
-            <div class=" row flex-sm-column flex-md-row align-items-sm-center">
-                <div class="col-sm-4">
-                    <figure class="icon-loc icon">
-                        <svg height="48" width="48" xmlns="http://www.w3.org/2000/svg">
-                            <path clip-rule="evenodd" d="M24 47S6 37.583 6 19C6 9.059 14.059 1 24 1s18 8.059 18 18c0 18.583-18 28-18 28zm0-44C15.178 3 8 10.178 8 19c0 14.758 12.462 23.501 16.003 25.687C27.547 42.51 40 33.805 40 19c0-8.822-7.178-16-16-16zm0 25c-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9-4.029 9-9 9zm0-16c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" fill-rule="evenodd"/>
-                        </svg>
-                    </figure>
-                </div>
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row flex-sm-column flex-md-row pt-sm-4 pb-sm-4">
 
-                <div class="col-sm-4">
-                    <h5 class="footer-title">About</h5>
-                    <p>Lorem ipsum dolor sit amet,<br>
-                    consectetuer adipiscing elit. Aenean</p>
-                </div>
+                    <div class="col-sm-4 pt-3 pb-3 widget">
+                        <div class="d-flex">
+                            <figure class="icon-loc icon mr-2 pt-1">
+                                <svg height="32" width="32" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                    <path clip-rule="evenodd" d="M24 47S6 37.583 6 19C6 9.059 14.059 1 24 1s18 8.059 18 18c0 18.583-18 28-18 28zm0-44C15.178 3 8 10.178 8 19c0 14.758 12.462 23.501 16.003 25.687C27.547 42.51 40 33.805 40 19c0-8.822-7.178-16-16-16zm0 25c-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9-4.029 9-9 9zm0-16c-3.866 0-7 3.134-7 7s3.134 7 7 7 7-3.134 7-7-3.134-7-7-7z" fill-rule="evenodd"/>
+                                </svg>
+                            </figure>
+                            <div class="address">
+                                DieSachbearbeiter<br /> Straße 49 10435 Berlin
+                            </div>
+                        </div>
+                    </div>
 
-                <div class="col-sm-4  d-flex justify-content-lg-end">
-                    <div class="subs-widget">
-                        <h5 class="subscribe-field-title">Subscribe</h5>
-                        <div class="input-holder">
+                    <div class="col-sm-4 pt-3 pb-3 widget">
+                        <h6 class="widget-title">About</h6>
+                        <p>Lorem ipsum dolor sit amet,<br>
+                        consectetuer adipiscing elit. Aenean</p>
+                    </div>
+
+                    <div class="col-sm-4 pt-3 pb-3 widget">
+                        <h6 class="widget-title">Subscribe</h6>
+                        <div class="subscribe-form">
                             <form>
                                 <input class="subscribe-field" type="text" placeholder="Enter your mail">
                                 <button type="submit" class="subscribe-submit">
@@ -327,73 +351,64 @@
                             </form>
                         </div>
                     </div>
-                </div>
 
                 </div>
             </div>
+        </div><!-- .footer-widget -->
 
-        <div class="social-icons-container background-footer">
+        <div class="footer-social-icons background-footer">
             <div class="social-icons d-flex flex-xl-column justify-content-center">
-                <figure class="icon">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9.266" height="19.856" viewBox="0 0 9.266 19.856">
-                        <path id="Facebook" d="M45.162,12.06H47.4V8.58H44.355c-4.318,0-4.215,3.346-4.215,3.846V15.16h-2V18.5h2v9.933h4.114V18.5h2.761s.258-1.6.384-3.356H44.27V12.861A.97.97,0,0,1,45.162,12.06Z" transform="translate(-38.137 -8.58)"/>
-                        </svg>
-                    </a>
-                </figure>
 
-                <figure class="icon">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21.98" height="17.863" viewBox="0 0 21.98 17.863">
-                            <path id="Twitter" d="M25.554,12.44a8.973,8.973,0,0,1-2.59.71,4.518,4.518,0,0,0,1.983-2.5,9.027,9.027,0,0,1-2.864,1.095A4.513,4.513,0,0,0,14.4,15.863a12.8,12.8,0,0,1-9.3-4.712,4.515,4.515,0,0,0,1.4,6.021,4.5,4.5,0,0,1-2.043-.564c0,.019,0,.038,0,.057a4.513,4.513,0,0,0,3.618,4.422,4.534,4.534,0,0,1-1.188.158,4.467,4.467,0,0,1-.849-.081A4.514,4.514,0,0,0,10.25,24.3a9.1,9.1,0,0,1-6.676,1.867,12.825,12.825,0,0,0,19.743-10.8q0-.293-.012-.584A9.134,9.134,0,0,0,25.554,12.44Z" transform="translate(-3.574 -10.326)"/>
-                        </svg>
-                    </a>
-                </figure>
+                <a href="#" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9.266" height="19.856" viewBox="0 0 9.266 19.856">
+                    <path id="Facebook" d="M45.162,12.06H47.4V8.58H44.355c-4.318,0-4.215,3.346-4.215,3.846V15.16h-2V18.5h2v9.933h4.114V18.5h2.761s.258-1.6.384-3.356H44.27V12.861A.97.97,0,0,1,45.162,12.06Z" transform="translate(-38.137 -8.58)"/>
+                    </svg>
+                </a>
 
-                <figure class="icon">
-                    <a href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-                            <g id="Instagram" transform="translate(0)">
-                                <path id="XMLID_142_" d="M146.175,206.547a5.1,5.1,0,0,0-2.921-2.921,7.3,7.3,0,0,0-2.427-.464c-1.066-.046-1.406-.062-4.127-.062s-3.06.008-4.127.062a7.254,7.254,0,0,0-2.427.464,5.1,5.1,0,0,0-2.921,2.921,7.3,7.3,0,0,0-.464,2.427c-.046,1.066-.062,1.406-.062,4.127s.008,3.06.062,4.127a7.255,7.255,0,0,0,.464,2.426,5.1,5.1,0,0,0,2.921,2.921,7.3,7.3,0,0,0,2.427.464c1.066.046,1.406.062,4.127.062s3.06-.008,4.127-.062a7.255,7.255,0,0,0,2.427-.464,5.1,5.1,0,0,0,2.921-2.921,7.3,7.3,0,0,0,.464-2.426c.046-1.066.062-1.407.062-4.127s-.008-3.06-.062-4.127A7.256,7.256,0,0,0,146.175,206.547Zm-1.337,10.595A5.467,5.467,0,0,1,144.49,219a3.1,3.1,0,0,1-.75,1.151,3.131,3.131,0,0,1-1.151.75,5.514,5.514,0,0,1-1.855.348c-1.059.046-1.368.062-4.042.062s-2.991-.008-4.042-.062a5.468,5.468,0,0,1-1.855-.348,3.1,3.1,0,0,1-1.151-.75,3.131,3.131,0,0,1-.75-1.151,5.511,5.511,0,0,1-.348-1.855c-.046-1.059-.062-1.376-.062-4.042s.008-2.991.062-4.042a5.465,5.465,0,0,1,.348-1.855,3.1,3.1,0,0,1,.75-1.151,3.131,3.131,0,0,1,1.151-.75,5.512,5.512,0,0,1,1.855-.348c1.059-.046,1.376-.062,4.042-.062s2.991.008,4.042.062a5.466,5.466,0,0,1,1.855.348,3.1,3.1,0,0,1,1.151.75,3.131,3.131,0,0,1,.75,1.151,5.512,5.512,0,0,1,.348,1.855c.046,1.059.062,1.376.062,4.042S144.884,216.09,144.838,217.142Z" transform="translate(-126.7 -203.1)"/>
-                                <path id="XMLID_145_" d="M194.345,266a4.845,4.845,0,1,0,4.845,4.845A4.847,4.847,0,0,0,194.345,266Zm0,7.992a3.147,3.147,0,1,1,3.147-3.147A3.148,3.148,0,0,1,194.345,273.992Z" transform="translate(-184.353 -260.845)"/>
-                                <ellipse id="XMLID_143_" cx="1.27" cy="1.27" rx="1.27" ry="1.27" transform="translate(14.018 3.434)"/>
-                            </g>
-                        </svg>
-                    </a>
-                </figure>
+                <a href="#" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21.98" height="17.863" viewBox="0 0 21.98 17.863">
+                        <path id="Twitter" d="M25.554,12.44a8.973,8.973,0,0,1-2.59.71,4.518,4.518,0,0,0,1.983-2.5,9.027,9.027,0,0,1-2.864,1.095A4.513,4.513,0,0,0,14.4,15.863a12.8,12.8,0,0,1-9.3-4.712,4.515,4.515,0,0,0,1.4,6.021,4.5,4.5,0,0,1-2.043-.564c0,.019,0,.038,0,.057a4.513,4.513,0,0,0,3.618,4.422,4.534,4.534,0,0,1-1.188.158,4.467,4.467,0,0,1-.849-.081A4.514,4.514,0,0,0,10.25,24.3a9.1,9.1,0,0,1-6.676,1.867,12.825,12.825,0,0,0,19.743-10.8q0-.293-.012-.584A9.134,9.134,0,0,0,25.554,12.44Z" transform="translate(-3.574 -10.326)"/>
+                    </svg>
+                </a>
+
+                <a href="#" class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <g id="Instagram" transform="translate(0)">
+                            <path id="XMLID_142_" d="M146.175,206.547a5.1,5.1,0,0,0-2.921-2.921,7.3,7.3,0,0,0-2.427-.464c-1.066-.046-1.406-.062-4.127-.062s-3.06.008-4.127.062a7.254,7.254,0,0,0-2.427.464,5.1,5.1,0,0,0-2.921,2.921,7.3,7.3,0,0,0-.464,2.427c-.046,1.066-.062,1.406-.062,4.127s.008,3.06.062,4.127a7.255,7.255,0,0,0,.464,2.426,5.1,5.1,0,0,0,2.921,2.921,7.3,7.3,0,0,0,2.427.464c1.066.046,1.406.062,4.127.062s3.06-.008,4.127-.062a7.255,7.255,0,0,0,2.427-.464,5.1,5.1,0,0,0,2.921-2.921,7.3,7.3,0,0,0,.464-2.426c.046-1.066.062-1.407.062-4.127s-.008-3.06-.062-4.127A7.256,7.256,0,0,0,146.175,206.547Zm-1.337,10.595A5.467,5.467,0,0,1,144.49,219a3.1,3.1,0,0,1-.75,1.151,3.131,3.131,0,0,1-1.151.75,5.514,5.514,0,0,1-1.855.348c-1.059.046-1.368.062-4.042.062s-2.991-.008-4.042-.062a5.468,5.468,0,0,1-1.855-.348,3.1,3.1,0,0,1-1.151-.75,3.131,3.131,0,0,1-.75-1.151,5.511,5.511,0,0,1-.348-1.855c-.046-1.059-.062-1.376-.062-4.042s.008-2.991.062-4.042a5.465,5.465,0,0,1,.348-1.855,3.1,3.1,0,0,1,.75-1.151,3.131,3.131,0,0,1,1.151-.75,5.512,5.512,0,0,1,1.855-.348c1.059-.046,1.376-.062,4.042-.062s2.991.008,4.042.062a5.466,5.466,0,0,1,1.855.348,3.1,3.1,0,0,1,1.151.75,3.131,3.131,0,0,1,.75,1.151,5.512,5.512,0,0,1,.348,1.855c.046,1.059.062,1.376.062,4.042S144.884,216.09,144.838,217.142Z" transform="translate(-126.7 -203.1)"/>
+                            <path id="XMLID_145_" d="M194.345,266a4.845,4.845,0,1,0,4.845,4.845A4.847,4.847,0,0,0,194.345,266Zm0,7.992a3.147,3.147,0,1,1,3.147-3.147A3.148,3.148,0,0,1,194.345,273.992Z" transform="translate(-184.353 -260.845)"/>
+                            <ellipse id="XMLID_143_" cx="1.27" cy="1.27" rx="1.27" ry="1.27" transform="translate(14.018 3.434)"/>
+                        </g>
+                    </svg>
+                </a>
+
             </div>
-     </div>
+        </div>
 
-    <footer class="site-footer">
-
-        <div class="container-fluid background-footer">
-            <nav class="navbar justify-content-xl-end justify-content-center navbar-expand-lg">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">what we do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Case studies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Careers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Get in touch</a>
-                    </li>
-                </ul>
-            </nav> <!-- .nav -->
-     </div> <!-- .container -->
-
+        <nav class="navbar footer-navbar justify-content-lg-end navbar-expand-lg container-fluid background-footer">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Who we are</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">what we do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Case studies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Get in touch</a>
+                </li>
+            </ul>
+        </nav>
 
     </footer>
 
- <!-- <script type="text/javascript" src="js/script.js"></script>  -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
