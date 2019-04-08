@@ -4,6 +4,11 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 
+// Layout
+// ----------------------------------------------------------
+@import 'layout/layout';
+
+
 
 // Fonts
 // --------------------------------------------------------------
@@ -236,70 +241,6 @@ a:hover {
 .footer-tag {
     padding-left: 2rem;
     position: relative;
-}
-
-/* Footer */
-.background-footer {
-    background-color: #F4F4F4;
-}
-
-.subscribe-form {
-    position: relative;
-}
-
-.subscribe-form .subscribe-field {
-    width: 100%;
-    border-style: solid;
-    border-color: #707070;
-    border-width: 0 0 1px 0;
-    outline: none;
-    font-size: 0.7rem;
-    padding: 0.5rem 0.2rem;
-}
-
-.subscribe-field::placeholder{
-    text-transform: uppercase;
-}
-
-.subscribe-form .subscribe-submit {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    outline: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-    padding: 0.5rem 0.2rem;
-}
-
-/* Footer Navs */
-.footer-navbar {
-    padding-right: 4rem;
-}
-
-.footer-navbar li {
-    padding: 0rem 1rem;
-}
-
-.footer-navbar a {
-    display: block;
-    color: currentColor;
-    padding: 1rem 2rem;
-    font-size: 1rem;
-}
-
-/* Footer Social icons */
-@media (min-width: 1200px) {
-
-    .footer-social-icons {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 3rem;
-        min-height: 20rem;
-        z-index: 1;
-    }
-
 }
 
 /* Hamburger menu */
