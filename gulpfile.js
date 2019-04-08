@@ -3,14 +3,14 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
-// Task: `sass`.
+// Task: `style`.
 // --------------------------------------------------------------
-function sass() {
+function style() {
 
-    return gulp
-	.src( style/style.scss )
-	.pipe( sass() )
-	.pipe( gulp.dest( style/style.css) );
+	return gulp
+	.src( './assets/sass/style.scss' )
+	.pipe( sass.sync({outputStyle: 'compressed'}).on('error', sass.logError) )
+	.pipe( gulp.dest( './' ) );
 
 }
 
@@ -18,8 +18,8 @@ function sass() {
 // --------------------------------------------------------------
 function watch() {
 
-	sass();
-	gulp.watch( ['./assets/*/.scss'], sass );
+	style();
+	gulp.watch( ['./assets/**/*.scss'], style );
 
 }
 
